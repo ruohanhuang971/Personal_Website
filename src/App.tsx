@@ -1,7 +1,16 @@
-import "./App.css";
+// import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import './App.css';
+import Banner from './components/Banner';
+import NavBar from './components/NavBar';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
-  return <div>App</div>;
+    return (
+        <>
+            <NavBar />
+            <Banner />
+        </>
+    );
 }
 
 export default App;
