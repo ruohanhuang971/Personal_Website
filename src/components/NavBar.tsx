@@ -55,7 +55,7 @@ const NavBar = () => {
                 {/* navbar content */}
                 <Navbar.Collapse id="basic-navbar-nav">
                     {/* Sections */}
-                    <Nav className="me-auto">
+                    <Nav variant="underline" className="me-auto">
                         <Nav.Link
                             href="#home"
                             onClick={() => setActive('home')}

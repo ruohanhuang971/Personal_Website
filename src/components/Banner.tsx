@@ -54,7 +54,7 @@ const Banner = () => {
         >
             <Container>
                 <Row className="align-items-center">
-                    <Col xs={12} md={8} xl={6}>
+                    <Col xs={12} md={10} xl={8}>
                         <span className="font-bold! tracking-[0.8px] text-center text-lg mb-4! px-3! py-2! border! border-white/50! rounded-xl inline-block">
                             Welcome to my portfolio
                         </span>
@@ -71,9 +71,9 @@ const Banner = () => {
                         </button>
                     </Col>
 
-                    <Col xs={12} md={4} xl={6}>
+                    {/* <Col xs={12} md={4} xl={6}>
                         <div className="mx-auto w-15 h-15 md:w-45 md:h-45 lg:w-45 lg:h-45 bg-white rounded-full animated-bounce"></div>
-                    </Col>
+                    </Col> */}
                 </Row>
             </Container>
         </section>

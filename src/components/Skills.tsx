@@ -15,13 +15,13 @@ import { SiAdobephotoshop } from 'react-icons/si';
 
 const Skills = () => {
     return (
-        <section id="skills" className="scroll-mt-20">
+        <section id="skills" className="scroll-mt-20 my-20!">
             <h1 className="text-center text-2xl mt-20!">Skills</h1>
             <Carousel>
                 <Carousel.Item>
                     <Carousel.Caption>
                         <h3>Frontend</h3>
-                        <p>
+                        <p className="text-[#B8B8B8]">
                             Build responsive and interactive interfaces using
                             modern frontend technologies
                         </p>
@@ -52,7 +52,9 @@ const Skills = () => {
                 <Carousel.Item>
                     <Carousel.Caption>
                         <h3>Backend</h3>
-                        <p>Design server-side solutions and APIs</p>
+                        <p className="text-[#B8B8B8]">
+                            Design server-side solutions and APIs
+                        </p>
                     </Carousel.Caption>
                     <div className="w-full h-[450px] text-center">
                         <div className="px-5 mt-5 flex flex-wrap justify-center">
@@ -78,7 +80,7 @@ const Skills = () => {
                 <Carousel.Item>
                     <Carousel.Caption>
                         <h3>Tool</h3>
-                        <p>
+                        <p className="text-[#B8B8B8]">
                             use for development or to create visually appealing
                             and user-friendly interfaces
                         </p>
